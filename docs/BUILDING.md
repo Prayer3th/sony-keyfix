@@ -24,8 +24,9 @@ installation. Each run cleans `build/`; `dist/` may retain earlier artifacts, so
 use the exact output path printed by the successful build.
 
 The release was built locally on macOS Apple Silicon with Java 17 + ECJ 3.33.0.
-CI defines a Linux JDK 17 build; verify its first hosted execution after uploading
-the repository. Windows paths are handled but Windows builds are unverified.
+The Linux JDK 17 build also passed on GitHub Actions; see the
+[verified run](https://github.com/Prayer3th/sony-keyfix/actions/runs/40000312491).
+Windows paths are handled but Windows builds are unverified.
 
 ## Alternate locations / JRE + ECJ
 

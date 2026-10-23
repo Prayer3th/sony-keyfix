@@ -24,6 +24,7 @@
 
 ## 1.0.0 发布构建
 
+- GitHub Actions 的 Ubuntu 24.04 / JDK 17 测试、未签名 APK 构建、源码打包与产物上传均已通过：[运行记录](https://github.com/Prayer3th/sony-keyfix/actions/runs/40000312491)。
 - 本地通过四键解析、79 种数据分片、重复抑制、普通按键不映射、SYN_DROPPED 恢复测试。
 - 通过严格设备路径识别、启停/开机/升级策略、shell 失败检测测试。
 - 通过 ADB 长度与队列边界、校验、UTF-8 地址和关闭原因测试；60 轮快速 OPEN/WRTE/CLSE 测试未丢失尾包或发生等待死锁。
