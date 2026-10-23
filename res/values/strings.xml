@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Sony Keyfix</string>
+    <string name="subtitle">Bluetooth remote button repair · X9500H / RMF-TX910C</string>
+    <string name="mappings">Input → Input selection    ·    Gear → Quick settings\nOptions / Menu → Current app menu</string>
+    <string name="menu_hint">Menu buttons work in apps that support a menu. The home screen may do nothing.</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="help">Help</string>
+    <string name="about">About</string>
+    <string name="author">Author: Prayer</string>
+    <string name="close">Close</string>
+    <string name="licenses">Open source licenses</string>
+    <string name="boot">Resume after TV restart</string>
+    <string name="footer">Runs on your TV · No root · Free and open source</string>
+    <string name="help_body">First use\n1. Pair the remote with the TV over Bluetooth.\n2. Keep TV network ADB debugging enabled on port 5555, then select Start.\n3. In the TV debugging prompt, select Always allow and Allow.\n\nDaily use\nYou can close this screen; repair keeps running. Enable Resume after TV restart for automatic startup. Stop saves the stopped state, including after restart.\n\nIf disconnected\nPress a remote button to wake it. The app retries automatically. If it still cannot connect, check TV ADB debugging and authorization.\n\nRemove\nUninstall Sony Keyfix in TV settings. Do not run another remapping script at the same time.</string>
+    <string name="about_body">An independent project for Sony X9500H and RMF-TX910C. Not affiliated with Sony.\n\nRepairs four Bluetooth buttons using authorized ADB on this TV. No cloud service, ads, analytics or accessibility service. Voice stays on the normal system path.\n\nYour TV must allow local ADB shell access. Keep network debugging on a trusted home network.\n\nProject: MIT License\nADB component: Cameron Gutman / AdbLib, BSD-3-Clause</string>
+    <string name="license_error">Unable to read the bundled license.</string>
+    <string name="status_stopped">Stopped</string>
+    <string name="status_connecting">Connecting · Allow the TV debugging prompt if shown</string>
+    <string name="status_waiting_remote">Waiting for the Bluetooth remote · Press a button to wake it</string>
+    <string name="status_unsupported">Unsupported system · Requires Android 9 with 32-bit ARM userspace</string>
+    <string name="status_running">Running · All four button mappings are enabled</string>
+    <string name="status_retrying">Reconnecting · Check TV debugging and authorization if this persists</string>
+    <string name="status_read_retry">Reconnecting to the remote · Check compatibility if this persists</string>
+    <string name="status_key_error">Button action failed · Reconnecting</string>
+    <string name="notification_channel">Button repair</string>
+    <string name="notification_text">Bluetooth button repair · Open controls</string>
+</resources>

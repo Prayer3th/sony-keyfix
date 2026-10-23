@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Sony Keyfix</string>
+    <string name="subtitle">蓝牙遥控器按键修复 · X9500H / RMF-TX910C</string>
+    <string name="mappings">输入源 → 输入选择    ·    齿轮 → 快速设置\n选项 / 三横线 → 当前应用菜单</string>
+    <string name="menu_hint">菜单键在支持菜单的应用内生效，主界面无反应属于正常行为。</string>
+    <string name="start">启动修复</string>
+    <string name="stop">停止修复</string>
+    <string name="help">使用帮助</string>
+    <string name="about">关于</string>
+    <string name="author">作者：Prayer</string>
+    <string name="close">关闭</string>
+    <string name="licenses">开源许可</string>
+    <string name="boot">电视重启后自动恢复</string>
+    <string name="footer">在电视上独立运行 · 无需 Root · 免费开源</string>
+    <string name="help_body">首次使用\n1. 将遥控器与电视通过蓝牙配对。\n2. 保持电视的网络 ADB 调试开启，端口为 5555，再选择「启动修复」。\n3. 电视弹出调试授权时，勾选「始终允许」并选择允许。\n\n日常使用\n关闭此界面后修复仍会运行。勾选「电视重启后自动恢复」可开机恢复；选择「停止修复」会保存停止状态，重启后也不会自动启动。\n\n连接中断\n短按遥控器任意键唤醒，应用会自动重试。仍无法连接时，请检查电视的 ADB 调试和授权。\n\n移除修复\n在电视设置中卸载 Sony Keyfix 即可。请勿同时运行其他按键修复脚本。</string>
+    <string name="about_body">为 Sony X9500H 与 RMF-TX910C 开发的独立项目，与 Sony 无隶属关系。\n\n通过电视本机授权的 ADB 修复四个蓝牙按键。无云服务、广告、统计或无障碍服务，语音继续使用系统原有功能。\n\n电视需要允许本机 ADB shell 访问。请在可信的家庭网络中使用网络调试。\n\n项目代码：MIT 许可\nADB 组件：Cameron Gutman / AdbLib，BSD-3-Clause 许可</string>
+    <string name="license_error">无法读取随附的许可文件。</string>
+    <string name="status_stopped">已停止</string>
+    <string name="status_connecting">正在连接 · 如电视弹出调试授权，请选择允许</string>
+    <string name="status_waiting_remote">等待蓝牙遥控器连接 · 请短按任意键唤醒</string>
+    <string name="status_unsupported">系统不兼容 · 需要 Android 9 与 32 位 ARM 用户空间</string>
+    <string name="status_running">正在运行 · 四个按键映射已启用</string>
+    <string name="status_retrying">正在重新连接 · 若持续等待，请检查电视调试与授权</string>
+    <string name="status_read_retry">正在重新连接遥控器 · 若持续等待，请检查设备兼容性</string>
+    <string name="status_key_error">按键操作未完成 · 正在重新连接</string>
+    <string name="notification_channel">按键修复</string>
+    <string name="notification_text">蓝牙按键修复已开启 · 点击查看</string>
+</resources>

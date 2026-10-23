@@ -1,0 +1,25 @@
+name: 问题报告 / Bug report
+description: 按键、连接或运行问题
+body:
+  - type: markdown
+    attributes:
+      value: 请勿上传私钥、完整系统日志、设备地址或账号信息。菜单键请在支持菜单的应用中测试。
+  - type: textarea
+    id: environment
+    attributes:
+      label: 设备与版本 / Environment
+      description: TV model, Android/firmware version, remote model, app version, Bluetooth or IR
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: 复现步骤与预期 / Steps and expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: 实际结果与应用状态 / Actual result and status
+    validations:
+      required: true

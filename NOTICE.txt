@@ -1,0 +1,19 @@
+Sony Keyfix is an independent project, not affiliated with or endorsed by Sony.
+Sony and the device model names identify compatibility; they are not project brands.
+
+Project code: MIT License (LICENSE.txt).
+
+Vendored component: AdbLib by Cameron Gutman (2013), BSD-3-Clause.
+Source: https://github.com/cgutman/AdbLib
+Revision: d6937951eb98557c76ee2081e383d50886ce109a
+Files: src/com/cgutman/adblib/*.java
+License: AdbLib-LICENSE.txt (preserved verbatim, including upstream wording).
+
+Local changes: serialized packet writes, concurrent stream lookup, connection
+and stream wait race fixes, final-payload retention, connection failure wakeups,
+bounded packet and input queues, explicit peer-close state, UTF-8 OPEN length,
+stream cleanup and socket closure. These files are not an unmodified upstream copy.
+
+The APK bundles both license texts and this notice in assets/.
+No Sony firmware, proprietary APK, signing private key or runtime ADB identity
+is distributed with the source or APK.
